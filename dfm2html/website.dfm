@@ -24,6 +24,7 @@ object PageContainer1: TPageContainer1
     Right = 0
     Bottom = 0
     UseIFrame = False
+    Title = 'Pointfree Interpreter with Classes'
     GeneratedCSSFile = 'dfm2html.css'
     object PageControl1: TdhPageControl
       Left = 16
