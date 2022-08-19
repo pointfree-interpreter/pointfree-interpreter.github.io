@@ -2,8 +2,8 @@ object PageContainer1: TPageContainer1
   Left = -4
   Top = -23
   Caption = 'website.dfm'
-  ClientHeight = 586
-  ClientWidth = 891
+  ClientHeight = 731
+  ClientWidth = 1264
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack
   Font.Height = -16
@@ -25,17 +25,16 @@ object PageContainer1: TPageContainer1
     Bottom = 0
     UseIFrame = False
     GeneratedCSSFile = 'dfm2html.css'
-    VertPosition = 1061
     object PageControl1: TdhPageControl
       Left = 16
-      Top = -1045
+      Top = 16
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = -1053
+        Top = 8
         Width = 792
         Height = 1784
         AutoSizeXY = asNone
@@ -61,6 +60,8 @@ object PageContainer1: TPageContainer1
             AutoSizeXY = asXY
             PreferDownStyles = True
             Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+            Link = 'https://pointfree-interpreter.github.io/'
+            Target = '_blank'
           end
           object Label1: TdhLabel
             Left = 24
