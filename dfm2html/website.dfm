@@ -24,19 +24,18 @@ object PageContainer1: TPageContainer1
     Right = 0
     Bottom = 0
     UseIFrame = False
-    Title = 'Pointfree Interpreter with Classes'
+    Title = 'Pointfree Interpreter with Classes and Instance Variables'
     GeneratedCSSFile = 'dfm2html.css'
-    VertPosition = 1175
     object PageControl1: TdhPageControl
       Left = 16
-      Top = -1159
+      Top = 16
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = -1167
+        Top = 8
         Width = 792
         Height = 1904
         AutoSizeXY = asNone
