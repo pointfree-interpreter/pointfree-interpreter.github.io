@@ -2,7 +2,7 @@ object PageContainer1: TPageContainer1
   Left = -4
   Top = -23
   Caption = 'website.dfm'
-  ClientHeight = 731
+  ClientHeight = 737
   ClientWidth = 1264
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack
@@ -26,25 +26,26 @@ object PageContainer1: TPageContainer1
     UseIFrame = False
     Title = 'Pointfree Interpreter with Classes'
     GeneratedCSSFile = 'dfm2html.css'
+    VertPosition = 1175
     object PageControl1: TdhPageControl
       Left = 16
-      Top = 16
+      Top = -1159
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = 8
+        Top = -1167
         Width = 792
-        Height = 1784
+        Height = 1904
         AutoSizeXY = asNone
         UseIFrame = False
         object Panel1: TdhPanel
           Left = 80
           Top = 32
           Width = 680
-          Height = 1736
+          Height = 1856
           Style.Border.Style = cbsNone
           AutoSizeXY = asNone
           object Image1: TdhLink
@@ -706,6 +707,47 @@ object PageContainer1: TPageContainer1
               PreferDownStyles = True
               Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
               Link = 'https://github.com/Fpstefan/history-backup'
+              Target = '_blank'
+            end
+          end
+          object Panel9: TdhPanel
+            Left = 248
+            Top = 1632
+            Width = 360
+            Height = 72
+            Style.Border.Width = 2
+            Style.Border.Style = cbsSolid
+            AutoSizeXY = asNone
+            object Image12: TdhLink
+              Left = 16
+              Top = 16
+              Width = 40
+              Height = 40
+              Text = ''
+              ImageType = bitImage
+              Style.BackgroundImage.Path = 'githubimage.png'
+              Style.BackgroundImage.State = isAnalyzed
+              Style.BackgroundImage.Width = 40
+              Style.BackgroundImage.Height = 40
+              AutoSizeXY = asXY
+              PreferDownStyles = True
+              Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+              Link = 'https://github.com/pointfrip/calculator'
+              Target = '_blank'
+            end
+            object Link3: TdhLink
+              Left = 72
+              Top = 24
+              Width = 237
+              Height = 17
+              Text = 'GitHub "Pointfrip f'#252'r Android"        .'
+              Style.Color = 72240718
+              Style.FontWeight = cfwBold
+              Style.TextDecoration = [ctdNone]
+              AutoSizeXY = asXY
+              PreferDownStyles = True
+              Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+              Link = 'https://github.com/pointfrip/calculator'
               Target = '_blank'
             end
           end
