@@ -26,24 +26,25 @@ object PageContainer1: TPageContainer1
     UseIFrame = False
     Title = 'Pointfree Interpreter with Classes and Instance Variables'
     GeneratedCSSFile = 'dfm2html.css'
+    VertPosition = 1175
     object PageControl1: TdhPageControl
       Left = 16
-      Top = 16
+      Top = -1159
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = 8
-        Width = 792
+        Top = -1167
+        Width = 912
         Height = 1904
         AutoSizeXY = asNone
         UseIFrame = False
         object Panel1: TdhPanel
           Left = 80
           Top = 32
-          Width = 680
+          Width = 816
           Height = 1856
           Style.Border.Style = cbsNone
           AutoSizeXY = asNone
@@ -739,7 +740,7 @@ object PageContainer1: TPageContainer1
               Top = 24
               Width = 237
               Height = 17
-              Text = 'GitHub "Pointfrip f'#252'r Android"        .'
+              Text = 'GitHub "Pointfrip for Android"        .'
               Style.Color = 72240718
               Style.FontWeight = cfwBold
               Style.TextDecoration = [ctdNone]
@@ -749,6 +750,40 @@ object PageContainer1: TPageContainer1
               Link = 'https://github.com/pointfrip/calculator'
               Target = '_blank'
             end
+          end
+          object Image13: TdhLink
+            Left = 632
+            Top = 1640
+            Width = 48
+            Height = 48
+            Text = ''
+            ImageType = bitImage
+            Style.BackgroundImage.Path = 'old_go_bottom.png'
+            Style.BackgroundImage.State = isSemiTransparent
+            Style.BackgroundImage.Width = 48
+            Style.BackgroundImage.Height = 48
+            AutoSizeXY = asXY
+            PreferDownStyles = True
+            Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+            Link = 'app-debug-en.apk'
+            Target = '_blank'
+          end
+          object Image14: TdhLink
+            Left = 712
+            Top = 1640
+            Width = 46
+            Height = 47
+            Text = ''
+            ImageType = bitImage
+            Style.BackgroundImage.Path = 'PDF.png'
+            Style.BackgroundImage.State = isAnalyzed
+            Style.BackgroundImage.Width = 46
+            Style.BackgroundImage.Height = 47
+            AutoSizeXY = asXY
+            PreferDownStyles = True
+            Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+            Link = 'quickinfo-en.pdf'
+            Target = '_blank'
           end
         end
       end
