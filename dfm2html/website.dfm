@@ -2,8 +2,8 @@ object PageContainer1: TPageContainer1
   Left = -4
   Top = -23
   Caption = 'website.dfm'
-  ClientHeight = 737
-  ClientWidth = 1264
+  ClientHeight = 675
+  ClientWidth = 891
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clBlack
   Font.Height = -16
@@ -26,25 +26,25 @@ object PageContainer1: TPageContainer1
     UseIFrame = False
     Title = 'Pointfree Interpreter with Classes and Instance Variables'
     GeneratedCSSFile = 'dfm2html.css'
-    VertPosition = 1175
+    VertPosition = 455
     object PageControl1: TdhPageControl
       Left = 16
-      Top = -1159
+      Top = -439
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = -1167
-        Width = 912
+        Top = -447
+        Width = 896
         Height = 1904
         AutoSizeXY = asNone
         UseIFrame = False
         object Panel1: TdhPanel
           Left = 80
           Top = 32
-          Width = 816
+          Width = 800
           Height = 1856
           Style.Border.Style = cbsNone
           AutoSizeXY = asNone
@@ -783,6 +783,23 @@ object PageContainer1: TPageContainer1
             PreferDownStyles = True
             Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
             Link = 'quickinfo-en.pdf'
+            Target = '_blank'
+          end
+          object Image15: TdhLink
+            Left = 624
+            Top = 728
+            Width = 36
+            Height = 36
+            Text = ''
+            ImageType = bitImage
+            Style.BackgroundImage.Path = 'infoimage3.PNG'
+            Style.BackgroundImage.State = isAnalyzed
+            Style.BackgroundImage.Width = 36
+            Style.BackgroundImage.Height = 36
+            AutoSizeXY = asXY
+            PreferDownStyles = True
+            Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+            Link = 'https://esolangs.org/wiki/FP_trivia'
             Target = '_blank'
           end
         end

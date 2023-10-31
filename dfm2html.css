@@ -34,37 +34,38 @@ div,span,img,a,form,body,label {border-width:1px;border-color:black}
 .Label8_nm {font-size:15px; }
 .Link2_nm {color:rgba(78,78,78,0.984); font-size:16px; font-weight:bold; text-decoration:none; }
 .Link3_nm {color:rgba(78,78,78,0.984); font-weight:bold; text-decoration:none; }
-.Image6_nm {background-image:url('Image6_nm.PNG'); }
-.Image7_nm {background-image:url('Image3_nm.gif'); }
-.Image4_nm {background-image:url('Image4_nm.png'); }
+.Label26_nm {font-size:15px; }
 .Image5_nm {background-image:url('Image4_nm.png'); }
-.index_nm {font-family:Arial; font-size:16px; }
-.Label1_nm {font-size:18px; }
-.Image8_nm {background-image:url('Image3_nm.gif'); }
-.Image9_nm {background-image:url('Image3_nm.gif'); }
+.Image6_nm {background-image:url('Image6_nm.PNG'); }
 .Image3_nm {background-image:url('Image3_nm.gif'); }
+.Image4_nm {background-image:url('Image4_nm.png'); }
+.Image9_nm {background-image:url('Image3_nm.gif'); }
+.index_nm {font-family:Arial; font-size:16px; }
+.Image7_nm {background-image:url('Image3_nm.gif'); }
+.Image8_nm {background-image:url('Image3_nm.gif'); }
+.Image2_nm {background-image:url('Image2_nm.png'); }
 .Image10_nm {background-image:url('Image10_nm.png'); }
 .Image11_nm {background-image:url('Image10_nm.png'); }
 .Image1_nm {background-image:url('Image1_nm.png'); }
 .Image14_nm {background-image:url('Image4_nm.png'); }
-.Image2_nm {background-image:url('Image2_nm.png'); }
+.Image15_nm {background-image:url('Image6_nm.PNG'); }
 .Image12_nm {background-image:url('Image10_nm.png'); }
-.Label10_nm {font-size:16px; }
-.Label21_nm {font-size:15px; }
-.Label22_nm {font-size:15px; }
-.Label2_nm {font-size:15px; }
+.Label1_nm {font-size:18px; }
 .Label20_nm {font-size:15px; }
-.Label25_nm {font-size:15px; }
-.Label26_nm {font-size:15px; }
-.Label23_nm {color:Black; font-size:15px; }
-.Label24_nm {font-size:15px; }
+.Label21_nm {font-size:15px; }
 .Label19_nm {font-size:15px; }
-.Label13_nm {font-size:15px; }
-.Label14_nm {font-size:15px; }
-.Label11_nm {font-size:15px; }
-.Label12_nm {font-size:15px; }
-.Label17_nm {font-size:15px; }
+.Label2_nm {font-size:15px; }
+.Label24_nm {font-size:15px; }
+.Label25_nm {font-size:15px; }
+.Label22_nm {font-size:15px; }
+.Label23_nm {color:Black; font-size:15px; }
 .Label18_nm {font-size:15px; }
-.Label15_nm {font-size:15px; }
+.Label12_nm {font-size:15px; }
+.Label13_nm {font-size:15px; }
+.Label10_nm {font-size:16px; }
+.Label11_nm {font-size:15px; }
 .Label16_nm {font-size:15px; }
+.Label17_nm {font-size:15px; }
+.Label14_nm {font-size:15px; }
+.Label15_nm {font-size:15px; }
 .fill {position:absolute;z-index:-99;padding:0;}
